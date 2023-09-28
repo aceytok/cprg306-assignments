@@ -1,13 +1,14 @@
 import React from "react";
 import StudentInfo from "../StudentInfo.js";
 
-const Week2Page = () => {
+export default function HomeWeek2() {
     return (
-        <div>
-        <h1 className="text-xl">My Shopping List</h1>
-        <StudentInfo />
-        </div>
-    );
-};
+        <main className="flex min-h-screen flex-col items-center justify-between p-24">
+            <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
+                <h1 className="text-4xl">My Shopping List</h1>
+                <StudentInfo />
+            </div>
+        </main>
+    )
+}
 
-export default Week2Page;
