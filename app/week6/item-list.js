@@ -27,7 +27,7 @@ export default function ItemList({ items }) {
   } */
 
   return (
-    <main className="bg-gradient-to-t from-blue-100 via-blue-300 to-blue-500">
+    <main className="bg-gradient-to-b from-blue-100 via-blue-300 to-blue-500">
       <div className="m-4">
         <label htmlFor="sort">Sort By: </label>
         <button
