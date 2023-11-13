@@ -18,7 +18,7 @@ export default function NewItem({ onAddItem }) {
   }
 
   return (
-    <main className="flex justify-center w-full ">
+    <main className="flex justify-center w-full">
       <form
         className="p-2 m-4 text-black max-w-sm w-full"
         onSubmit={handleSubmit}
